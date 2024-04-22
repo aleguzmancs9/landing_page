@@ -179,3 +179,22 @@ ul, ol {
     padding: 0;
     margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .left-header li {
+        margin-left: 20px; /* Adjust margins for smaller screens */
+    }
+    .right-header li {
+        margin-right: 5px; /* Adjust margins for smaller screens */
+    }
+    .under {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+    }
+    .left1 {
+        margin-right: 20px; /* Adjust margins for smaller screens */
+    }
+    .right1 {
+        margin-top: 10px; /* Add margin for better spacing */
+    }
+}
